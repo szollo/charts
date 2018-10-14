@@ -10,8 +10,8 @@
 
 Master:
   Name: jenkins-master
-  Image: "jenkins/jenkins"
-  ImageTag: "lts"
+  Image: "steviezollo/jenkins"
+  ImageTag: "1.0"
   ImagePullPolicy: "Always"
 # ImagePullSecret: jenkins
   Component: "jenkins-master"
